@@ -1,5 +1,25 @@
-img {
-  height: 100px;
+body{
+
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+header {
+  padding: 1% 2%;
+  background-color: #ebebeb;
+}
+
+header img {
+  height: 50px;
+
+}
+
+main img {
+  height: 320px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hidden {
