@@ -21,11 +21,11 @@ to win 1 of 10 trips worth $10,000.
 </p>
 </div>
 <main>
-    <form name="entry-form">
+    <form name="entry-form" id="entry-form">
     <div>
-        <p>Your Name <i>as it appears on the credit card</i></p>
+        <label>Your Name <i>as it appears on the credit card</i></label>
         <input type="text" placeholder="Name">
-        <p>Interad CashBack Credit Card Number</p>
+        <label>Interad CashBack Credit Card Number</label>
         <input type="text" placeholder="XXXX"> -
         <input type="text" placeholder="XXXX"> -
         <input type="text" placeholder="XXXX"> -
@@ -38,12 +38,31 @@ to win 1 of 10 trips worth $10,000.
         <input type="tel" placeholder="Phone Number">
     </div>
     <div>
-        <p>Why do you deserve this money?</p>
-        <input type="textarea" />
+        <label for="why-you-deserve">Why do you deserve this money?</label>
+        <textarea  name="entry-form" id="why-you-deserve">
+        </textarea>
+        <hr>
+        <input type="checkbox"><span>I am registering and Interad Business card</span>
+        <p>Business Name <i>as it appears on the credit card</i></p>
+        <input type="text"/>
+        <input type="checkbox"><span><b>I certify that I am the owner of the business under which the business Interad Platinum card
+        that I've entered (into this Contest has been issued.</b><br><br>
+        <span>Note: If an interad Platinum card is selected as a potential winner, the business owner must provide
+        identification satisfactory to the Sponsor confirming the business ownership. The prize will be awarded in the name
+        of the business and the business owner(s) will determine who will participate in the prize.
+        </span>
+    </span>
+    <hr>
+        <input type="checkbox"><span><b>I have read and agree to the
+        <a href="google.com">Official Contest Rules and Regulations</a></b>
+    <span>No purchase necessary. Contest starts April 1, 2013 and ends May 31, 2013.</span>
+    </span>
     </div>
+        <button type="submit">Submit Entry</button>
     </form>
 </main>
+<footer>
 
-
+</footer>
 </body>
 </html>
