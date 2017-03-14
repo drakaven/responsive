@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Responsive Challange</title>
-    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
 <header>
     <div>
-        <img src="./Resources/interad_logo.png" alt="">
+        <img src="./Resources/interad_logo.png" alt="Interard Logo, I inside red square">
     </div>
     <div>
-        <img src="./Resources/Sample_CreditCard.png" alt="">
+        <img src="./Resources/Sample_CreditCard.png" alt="Credit card with interad logo">
         <p>What can the <b>Interad card</b> do for you?</p>
     </div>
 </header>
@@ -23,8 +23,8 @@
     </p>
 </div>
 <main>
-    <form name="entry-form" id="entry-form">
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <form name="entry-form" id="entry-form">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <label>Your Name <i>as it appears on the credit card</i></label>
@@ -39,38 +39,40 @@
                     <p>Email</p>
                     <input type="email" placeholder="Email">
                     <p>Daytime Phone Number</p>
-                    <input type="tel" placeholder="Phone Number">
+                    <input type="tel" placeholder="Phone Number" id="telephone-input">
                 </div>
             </div>
-        </div>
-        <label for="why-you-deserve">Why do you deserve this money?</label>
-        <textarea name="entry-form" id="why-you-deserve">
+    </div>
+    <label for="why-you-deserve">Why do you deserve this money?</label>
+    <textarea name="entry-form" id="why-you-deserve">
         </textarea>
-        <hr>
-        <input type="checkbox"><span>I am registering and Interad Business card</span>
-        <p>Business Name <i>as it appears on the credit card</i></p>
+    <hr>
+    <input type="checkbox" id="business-card-checkbox"><span>I am registering and Interad Business card</span>
+    <div class="hidden" id="business-card-section">
+        <span>Business Name <i>as it appears on the credit card</i></span><br>
         <input type="text"/>
         <input type="checkbox"><span><b>I certify that I am the owner of the business under which the business Interad Platinum card
-        that I've entered (into this Contest has been issued.</b><br><br>
+        that I've entered (into this Contest has been issued.</b><br>
         <span>Note: If an interad Platinum card is selected as a potential winner, the business owner must provide
         identification satisfactory to the Sponsor confirming the business ownership. The prize will be awarded in the name
         of the business and the business owner(s) will determine who will participate in the prize.
         </span>
     </span>
-        <hr>
-        <input type="checkbox"><span><b>I have read and agree to the
+
+    </div>
+    <hr>
+    <input type="checkbox" id="read-agree-checkbox"><span><b>I have read and agree to the
         <a href="google.com">Official Contest Rules and Regulations</a></b>
     <span>No purchase necessary. Contest starts April 1, 2013 and ends May 31, 2013.</span>
     </span>
-        </div>
-        <button type="submit">Submit Entry</button>
+    <button type="submit" id="form-submit">Submit Entry</button>
     </form>
 </main>
 <footer>
     Interad Website, 1994-2013<br>
-    <a href="google.com">Privacy & Security</a> |
-    <a href="google.com">Legal</a> |
-    <a href="google.com">Accessibility</a>
+    <a href="http://www.google.com">Privacy & Security</a> |
+    <a href="http://www.google.com">Legal</a> |
+    <a href="http://www.google.com">Accessibility</a>
 </footer>
 <script src="./bootstrap/js/jquery-3.1.1.min.js"></script>
 <script src="./bootstrap/js/bootstrap.min.js"></script>
