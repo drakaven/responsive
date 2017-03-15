@@ -1,8 +1,10 @@
-.container-fluid {
-    padding: 0px;
+body {
+    background-color: #f9f9f9;
 }
 
+
 .row {
+
     padding: 2% 4%;
 }
 
@@ -89,4 +91,23 @@ button {
     padding: 8px 16px;
     box-shadow: 0 1px 2px #888888;
     float: right;
+}
+
+.missing-info-label {
+    color: #d00000;
+}
+
+.missing-info{
+    height: 16px;
+    margin: 0;
+    display: inline;
+}
+
+.missing-info-text{
+    margin: 1%;
+    color: #d00000;
+}
+
+.missing-info-input{
+    border: 2px solid #d00000;
 }
