@@ -11,6 +11,22 @@ header img {
     height: 50px;
 }
 
+label {
+    font-size: 1em;
+    color: #444;
+    padding: 1%;
+}
+
+input {
+    padding: 8px;
+    border-top: 2px solid #ddd;
+}
+
+textarea {
+    border-top: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
 main img {
     height: 320px;
     display: block;
@@ -48,7 +64,16 @@ main img {
     border-bottom: 2px solid #ececec;
 }
 
-label {
-    font-size: 1em;
-    color: #444;
+.super {
+    vertical-align: text-top;
+    font-size: 1.25rem;
 }
+
+.credit-card-input{
+    width: 15%;
+}
+
+.row {
+    padding: 2%;
+}
+
