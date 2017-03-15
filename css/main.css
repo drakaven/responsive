@@ -2,6 +2,10 @@
     padding: 0px;
 }
 
+.row {
+    padding: 3%;
+}
+
 header {
     padding: 1% 2%;
     background-color: #ebebeb;
@@ -14,7 +18,6 @@ header img {
 label {
     font-size: 1em;
     color: #444;
-    padding: 1%;
 }
 
 input {
@@ -73,7 +76,12 @@ main img {
     width: 15%;
 }
 
-.row {
-    padding: 2%;
+button {
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    background-color: #d00000;
+    padding: 8px 16px;
+    box-shadow: 0 1px 2px #888888;
+    float: right;
 }
-
