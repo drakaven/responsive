@@ -9,68 +9,72 @@
 </head>
 <body class="container-fluid">
 <header>
-    <div>
+    <div class="row">
         <img src="./Resources/interad_logo.png" alt="Interard Logo, I inside red square">
     </div>
 </header>
 <main>
-        <section class="credit-card-section">
-            <img src="./Resources/Sample_CreditCard.png" alt="Credit card with interad logo">
-            <p>What can the <b>Interad card</b> do for you?</p>
-        </section>
-        <section class="contest-description-section">Simply complete the form below to enter the Cashback Contest for a chance
+    <div class="row credit-card-section">
+        <img src="./Resources/Sample_CreditCard.png" alt="Credit card with interad logo">
+        <p>What can the <b>Interad card</b> do for you?</p>
+    </div>
+    <div class="row contest-description-section">Simply complete the form below to enter the Cashback Contest for a
+        chance
         to win** 1 of 10 trips worth <span class="super">$</span>10,000.
-        </section>
-        <form name="entry-form" id="entry-form">
-            <div class="row">
-                <section class="left-md-6 col-12 col-md-6">
-                    <label>Your Name <i>as it appears on the credit card</i></label><br>
-                    <input type="text" placeholder="Name"><br>
-                    <label>Interad CashBack Credit Card Number</label><br>
-                    <div id="credit-card-number-inputs">
+    </div>
+    <form name="entry-form" id="entry-form">
+        <div class="row">
+            <div class="column-6 col-12 col-md-6">
+                <label>Your Name <i>as it appears on the credit card</i></label><br>
+                <input type="text" placeholder="Name"><br>
+                <label>Interad CashBack Credit Card Number</label><br>
+                <div id="credit-card-number-inputs">
                     <input class="credit-card-input" type="text" placeholder="XXXX"> -
                     <input class="credit-card-input" placeholder="XXXX"> -
                     <input class="credit-card-input" placeholder="XXXX"> -
                     <input class="credit-card-input" placeholder="XXXX">
-                    </div>
-                </section>
-                <section class="right-md-6 col-12 col-md-6">
-                    <label>Email</label><br>
-                    <input type="email" placeholder="Email"><br>
-                    <label>Daytime Phone Number</label><br>
-                    <input type="tel" placeholder="Phone Number" id="telephone-input"><br>
-                </section>
+                </div>
             </div>
-
-    <div class="row">
-    <label for="why-you-deserve">Why do you deserve this money?</label><br>
-    <textarea name="entry-form" id="why-you-deserve">
+            <div class="column-6 col-12 col-md-6">
+                <label>Email</label><br>
+                <input type="email" placeholder="Email"><br>
+                <label>Daytime Phone Number</label><br>
+                <input type="tel" placeholder="Phone Number" id="telephone-input"><br>
+            </div>
+        </div>
+        <div class="row">
+            <label for="why-you-deserve">Why do you deserve this money?</label><br>
+            <textarea name="entry-form" id="why-you-deserve">
         </textarea>
-    <hr>
-    </div>
-    <input type="checkbox" id="business-card-checkbox"><label>I am registering and Interad Business card</label>
-    <div class="row hidden" id="business-card-section">
-        <label>Business Name <i>as it appears on the credit card</i></label><br>
-        <input type="text"/><br>
-        <input type="checkbox"><span><b>I certify that I am the owner of the business under which the business Interad Platinum card
+            <hr>
+        </div>
+        <div class="row">
+            <input type="checkbox" id="business-card-checkbox"><label>I am registering and Interad Business card</label>
+        </div>
+        <div class="row hidden" id="business-card-section">
+            <label>Business Name <i>as it appears on the credit card</i></label><br>
+            <input type="text"/><br>
+            <input type="checkbox"><span><b>I certify that I am the owner of the business under which the business Interad Platinum card
         that I've entered (into this Contest has been issued.</b><br>
         <span>Note: If an interad Platinum card is selected as a potential winner, the business owner must provide
         identification satisfactory to the Sponsor confirming the business ownership. The prize will be awarded in the name
         of the business and the business owner(s) will determine who will participate in the prize.
         </span>
     </span>
-    </div>
-    <hr>
-    <input type="checkbox" id="read-agree-checkbox"><span><b>I have read and agree to the
+        </div>
+        <div class="row">
+        <hr>
+        <input type="checkbox" id="read-agree-checkbox"><span><b> I have read and agree to the
         <a href="http://google.com">Official Contest Rules and Regulations</a></b>
     <span>No purchase necessary. Contest starts April 1, 2013 and ends May 31, 2013.</span>
     </span>
-    <div class="row">
-    <button type="submit" id="form-submit">Submit Entry</button>
-    </div>
+        </div>
+        <div class="row">
+            <button type="submit" id="form-submit">Submit Entry</button>
+        </div>
     </form>
 </main>
-<footer>
+<footer class="row">
     Interad Website, 1994-2013<br>
     <a href="http://www.google.com">Privacy & Security</a> |
     <a href="http://www.google.com">Legal</a> |
