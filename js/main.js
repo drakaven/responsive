@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     $('#form-submit').on('click', function (event) {
+        //preventing default here to allow for testing
         event.preventDefault();
         var telephoneInput = $('#telephone-input');
         if (telephoneInput[0].value === '') {
@@ -32,6 +33,10 @@ $(document).ready(function () {
     });
 
     $('#business-card-checkbox').on('change', function () {
-        $('#business-card-section').toggleClass('hidden');
+        var businessCard = $('#business-card-section');
+        businessCard.toggleClass('hidden');
+        businessCard.children('input').each(function () {
+            $(this).toggleClass('required-input');
+        });
     });
 });
