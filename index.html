@@ -7,8 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
-<body>
-<div class="container-fluid">
+<body class="container-fluid">
 <header>
     <div>
         <img src="./Resources/interad_logo.png" alt="Interard Logo, I inside red square">
@@ -19,28 +18,30 @@
             <img src="./Resources/Sample_CreditCard.png" alt="Credit card with interad logo">
             <p>What can the <b>Interad card</b> do for you?</p>
         </section>
-        <p>Simply complete the form below to enter the Cashback Contest for a chance
-        to win 1 of 10 trips worth $10,000.
-        </p>
+        <section class="contest-description-section">Simply complete the form below to enter the Cashback Contest for a chance
+        to win** 1 of 10 trips worth $10,000.
+        </section>
         <form name="entry-form" id="entry-form">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <label>Your Name <i>as it appears on the credit card</i></label>
-                    <input type="text" placeholder="Name">
-                    <label>Interad CashBack Credit Card Number</label>
+                    <label>Your Name <i>as it appears on the credit card</i></label><br>
+                    <input type="text" placeholder="Name"><br>
+                    <label>Interad CashBack Credit Card Number</label><br>
+                    <div id="credit-card-number-inputs">
                     <input type="text" placeholder="XXXX"> -
                     <input type="text" placeholder="XXXX"> -
                     <input type="text" placeholder="XXXX"> -
                     <input type="text" placeholder="XXXX">
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <p>Email</p>
-                    <input type="email" placeholder="Email">
-                    <p>Daytime Phone Number</p>
-                    <input type="tel" placeholder="Phone Number" id="telephone-input">
+                    <label>Email</label><br>
+                    <input type="email" placeholder="Email"><br>
+                    <label>Daytime Phone Number</label><br>
+                    <input type="tel" placeholder="Phone Number" id="telephone-input"><br>
                 </div>
             </div>
-    </div>
+
     <label for="why-you-deserve">Why do you deserve this money?</label>
     <textarea name="entry-form" id="why-you-deserve">
         </textarea>
@@ -60,7 +61,7 @@
     </div>
     <hr>
     <input type="checkbox" id="read-agree-checkbox"><span><b>I have read and agree to the
-        <a href="google.com">Official Contest Rules and Regulations</a></b>
+        <a href="http://google.com">Official Contest Rules and Regulations</a></b>
     <span>No purchase necessary. Contest starts April 1, 2013 and ends May 31, 2013.</span>
     </span>
     <button type="submit" id="form-submit">Submit Entry</button>
@@ -75,5 +76,6 @@
 <script src="./bootstrap/js/jquery-3.1.1.min.js"></script>
 <script src="./bootstrap/js/bootstrap.min.js"></script>
 <script src="./js/main.js"></script>
+</body>
 </body>
 </html>
