@@ -26,14 +26,16 @@ header img {
 }
 
 label {
-    font-size: 1em;
+    font-size: 1.25em;
     color: #444;
+    margin-bottom: 8px;
 }
 
 input {
     padding: 8px;
     border-top: 2px solid #ddd;
     width: 100%;
+    margin-bottom: 6%;
 }
 
 textarea {
@@ -122,5 +124,9 @@ button {
 }
 
 input[type="checkbox"]{
-width: 3%;
+    width: 3%;
+}
+
+.required-asterix{
+    color: #d00000;
 }
